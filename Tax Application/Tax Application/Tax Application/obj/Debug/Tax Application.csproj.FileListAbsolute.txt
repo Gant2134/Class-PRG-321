@@ -1,0 +1,9 @@
+C:\Users\CCSDuser\Documents\GitHub\Class-PRG-321\Tax Application\Tax Application\Tax Application\bin\Debug\Tax Application.exe.config
+C:\Users\CCSDuser\Documents\GitHub\Class-PRG-321\Tax Application\Tax Application\Tax Application\bin\Debug\Tax Application.exe
+C:\Users\CCSDuser\Documents\GitHub\Class-PRG-321\Tax Application\Tax Application\Tax Application\bin\Debug\Tax Application.pdb
+C:\Users\CCSDuser\Documents\GitHub\Class-PRG-321\Tax Application\Tax Application\Tax Application\obj\Debug\Tax Application.csprojResolveAssemblyReference.cache
+C:\Users\CCSDuser\Documents\GitHub\Class-PRG-321\Tax Application\Tax Application\Tax Application\obj\Debug\Tax_Application.TaxApplication.resources
+C:\Users\CCSDuser\Documents\GitHub\Class-PRG-321\Tax Application\Tax Application\Tax Application\obj\Debug\Tax_Application.Properties.Resources.resources
+C:\Users\CCSDuser\Documents\GitHub\Class-PRG-321\Tax Application\Tax Application\Tax Application\obj\Debug\Tax Application.csproj.GenerateResource.Cache
+C:\Users\CCSDuser\Documents\GitHub\Class-PRG-321\Tax Application\Tax Application\Tax Application\obj\Debug\Tax Application.exe
+C:\Users\CCSDuser\Documents\GitHub\Class-PRG-321\Tax Application\Tax Application\Tax Application\obj\Debug\Tax Application.pdb
