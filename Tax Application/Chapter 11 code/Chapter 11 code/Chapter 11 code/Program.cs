@@ -47,7 +47,15 @@ namespace Chapter_11_code
             // this means they are both object and references at the same time 
             //this means that there is no need to assign an object of type int
             //to a reference of type int,
-            p1.m_age = 18;
+            // p1.m_age = 18;
+            //the following line is possible because SetFirstName is a public method
+            p.SetFirstName("Julien");
+            //the following line is using the property LastName. A property is nothing
+            //more that and convienient way to write a getter and/or setter and manipulating
+            //the inner member variable of the class as if it were a public member
+            //(looks like we are accesing a public memeber variable)
+            p.LastName = "esposito";
+               
 
             
         }
