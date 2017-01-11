@@ -50,12 +50,18 @@ namespace Chapter_11_code
             // p1.m_age = 18;
             //the following line is possible because SetFirstName is a public method
             p.SetFirstName("Julien");
+
             //the following line is using the property LastName. A property is nothing
             //more that and convienient way to write a getter and/or setter and manipulating
             //the inner member variable of the class as if it were a public member
             //(looks like we are accesing a public memeber variable)
             p.LastName = "esposito";
-               
+
+            int MyInterger = 2;
+            MyInterger = 3;
+            // const declares a constant which means the variable cannot be changed
+            const int MyOtherInt = 2;
+            MyOtherInt = 3;
 
             
         }
