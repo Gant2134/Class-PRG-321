@@ -15,11 +15,29 @@ namespace Chapter_11_code
 
         //if the member variables are not specified as either public protected or private
         //the default is private.
-        public string m_FirstName;
-        public string m_LastName;
-        public int m_age;
+        private string m_FirstName;
+        private string m_LastName;
+        private int m_age;
 
         string m_Haircolor;
 
+        //this kind of method when you set a member variables is called a setter.
+        public void SetFirstName(string firstname)
+        {
+            // the reason for the underscore m is because otherwise we would have 
+            //firstname = firstname which is ambiguous because with such code
+            // we have no clue if the meaning is copying the input of the itself
+            // copying the member variable to itself, copying the member variable to the input
+            //or copying the input to the member variable.
+            // had we fucked this up by naming the naming the member varible firstname
+            // instead of m_FirstName another way to remove to the ambiguity is to
+            // write this.firstname = firstname.
+            m_FirstName = firstname;
+        }
+        //this type of method (reading back the value of a memeber variable is called a getter)
+        public string GetFirstName()
+        {
+            return m_FirstName;
+        }
     }
 }
