@@ -39,5 +39,37 @@ namespace Chapter_11_code
         {
             return m_FirstName;
         }
+
+        public string LastName
+        {
+            get
+            {
+                return m_LastName;
+            }
+
+            set
+            {
+                m_LastName = value;
+            }
+        }
+        // this is a constructor. because default no imput required also no return value
+
+        public person()
+        {
+            m_FirstName = "Jane";
+            m_LastName = "Doe";
+            m_age = 0;
+
+        }
+
+        // this is an parameterized contructor, meaning it takes its one parameters
+
+        public person(string fn, string ln, int age)
+        {
+            m_FirstName = fn;
+            m_LastName = ln;
+            m_age = age;
+        }
+
     }
 }
