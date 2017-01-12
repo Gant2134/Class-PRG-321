@@ -9,17 +9,27 @@ namespace Chapter_11_code
     // we make person public, meaning its accessible from other modules can access and use class
     public class person
     {
-        //the next three variables are refered to as "member variables" of the class person
+        private static int NumberReferences = 0;
+
+        public static int NumReferences()
+        {
+            return NumberReferences;
+        }
+
+          //the next three variables are refered to as "member variables" of the class person
         // in other words, those memebr variables are also reffered to as properties
         //the protected attribute
 
         //if the member variables are not specified as either public protected or private
         //the default is private.
-        private string m_FirstName;
-        private string m_LastName;
-        private int m_age;
 
-        string m_Haircolor;
+        //edit: because we now want the class student to access the content of the class
+        // person we make the member variables protected.
+        protected string m_FirstName;
+        protected string m_LastName;
+        protected int m_age;
+
+        protected string m_Haircolor;
 
         //this kind of method when you set a member variables is called a setter.
         public void SetFirstName(string firstname)
@@ -64,12 +74,25 @@ namespace Chapter_11_code
 
         // this is an parameterized contructor, meaning it takes its one parameters
 
-        public person(string fn, string ln, int age)
+        public person(string fn, string ln, int age, string haircolor)
         {
+            NumberReferences = NumberReferences + 1;
             m_FirstName = fn;
             m_LastName = ln;
             m_age = age;
+            m_Haircolor = haircolor;
         }
 
+        //public person( const string person p)
+       // {
+       // }
+
+        public void PrintOutContent()
+        {
+            Console.WriteLine("First name = " + m_FirstName);
+            Console.WriteLine("Last name = " + m_LastName);
+            Console.WriteLine("Age = " + m_age);
+            Console.WriteLine("Hair color = " + m_Haircolor);
+        }
     }
 }
