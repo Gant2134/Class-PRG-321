@@ -64,14 +64,27 @@ namespace Chapter_11_code
         }
         // this is a constructor. because default no imput required also no return value
 
-        public person()
+        protected person()
         {
             m_FirstName = "Jane";
             m_LastName = "Doe";
             m_age = 0;
+            m_Haircolor = "Ginger";
 
         }
 
+        public String HairColor
+        {
+            set
+            {
+                m_Haircolor = value;
+            }
+
+            get
+            {
+                return m_Haircolor;
+            }
+        }
         // this is an parameterized contructor, meaning it takes its one parameters
 
         public person(string fn, string ln, int age, string haircolor)
@@ -83,9 +96,10 @@ namespace Chapter_11_code
             m_Haircolor = haircolor;
         }
 
-        //public person( const string person p)
-       // {
-       // }
+        public person( ref person p)
+       {
+
+       }
 
         public void PrintOutContent()
         {

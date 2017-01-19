@@ -4,7 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Chapter_11_code
+namespace This_assignment
 {
-    //Ask again about setters and getters.......then commit it to memory
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        }
+    }
 }
