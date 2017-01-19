@@ -10,8 +10,8 @@ namespace Chapter_11_code
     {
         private static int id = 0;
         public float m_gpa;
-
-        set
+        private int m_id;
+        //set
 
 
 
@@ -33,6 +33,7 @@ namespace Chapter_11_code
         {
             m_gpa = gpa;
             id = id + 1;
+            m_id = id;
         }
 
         public void PrintGPA(float m_gpa)
