@@ -11,7 +11,7 @@ namespace Chapter_11_code
         private static int id = 0;
         public float m_gpa;
 
-        set
+        //set
 
 
 
