@@ -25,17 +25,17 @@ namespace Tax_Application
                 textBoxPrice.Text = "";
                 return;
             }
-            if (string.IsDouble(textBoxPrice.Text))
-            {
+       if(string.IsNullOrEmpty(textBoxPrice.Text) == false)
+         {
 
-            }
-            double price = double.Parse(textBoxPrice.Text);
-            double tax_rate = double.Parse(label2.Text);
-            double tax = (0.01 * tax_rate * price);
-            double total = (tax + price);
-            textBoxTotal.Text = total.ToString();
+           }
+           double price = double.Parse(textBoxPrice.Text);
+           double tax_rate = double.Parse(label2.Text);
+           double tax = (0.01 * tax_rate * price);
+           double total = (tax + price);
+           textBoxTotal.Text = total.ToString();
 
 
-        }
+          }
     }
 }

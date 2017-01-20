@@ -1,0 +1,8 @@
+C:\Users\CCSDuser\Documents\GitHub\Class-PRG-321\Tax Application\Tax Application\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\CCSDuser\Documents\GitHub\Class-PRG-321\Tax Application\Tax Application\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\CCSDuser\Documents\GitHub\Class-PRG-321\Tax Application\Tax Application\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\CCSDuser\Documents\GitHub\Class-PRG-321\Tax Application\Tax Application\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\CCSDuser\Documents\GitHub\Class-PRG-321\Tax Application\Tax Application\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\CCSDuser\Documents\GitHub\Class-PRG-321\Tax Application\Tax Application\WindowsFormsApplication1\obj\Debug\GUI selection.csproj.GenerateResource.Cache
+C:\Users\CCSDuser\Documents\GitHub\Class-PRG-321\Tax Application\Tax Application\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\CCSDuser\Documents\GitHub\Class-PRG-321\Tax Application\Tax Application\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

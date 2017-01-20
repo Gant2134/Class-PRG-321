@@ -1,0 +1,12 @@
+C:\Users\CCSDuser\Documents\GitHub\Class-PRG-321\Tax Application\Chapter 11 code\Chapter 11 code\Chapter 11 code\bin\Debug\Chapter 11 code.exe.config
+C:\Users\CCSDuser\Documents\GitHub\Class-PRG-321\Tax Application\Chapter 11 code\Chapter 11 code\Chapter 11 code\bin\Debug\Chapter 11 code.exe
+C:\Users\CCSDuser\Documents\GitHub\Class-PRG-321\Tax Application\Chapter 11 code\Chapter 11 code\Chapter 11 code\bin\Debug\Chapter 11 code.pdb
+C:\Users\CCSDuser\Documents\GitHub\Class-PRG-321\Tax Application\Chapter 11 code\Chapter 11 code\Chapter 11 code\obj\Debug\Chapter 11 code.csprojResolveAssemblyReference.cache
+C:\Users\CCSDuser\Documents\GitHub\Class-PRG-321\Tax Application\Chapter 11 code\Chapter 11 code\Chapter 11 code\obj\Debug\Chapter 11 code.exe
+C:\Users\CCSDuser\Documents\GitHub\Class-PRG-321\Tax Application\Chapter 11 code\Chapter 11 code\Chapter 11 code\obj\Debug\Chapter 11 code.pdb
+\\Mac\Home\Documents\dev\ChrisMcCall-Class-PRG-321\Tax Application\Chapter 11 code\Chapter 11 code\Chapter 11 code\bin\Debug\Chapter 11 code.exe.config
+\\Mac\Home\Documents\dev\ChrisMcCall-Class-PRG-321\Tax Application\Chapter 11 code\Chapter 11 code\Chapter 11 code\obj\Debug\Chapter 11 code.exe
+\\Mac\Home\Documents\dev\ChrisMcCall-Class-PRG-321\Tax Application\Chapter 11 code\Chapter 11 code\Chapter 11 code\obj\Debug\Chapter 11 code.pdb
+\\Mac\Home\Documents\dev\ChrisMcCall-Class-PRG-321\Tax Application\Chapter 11 code\Chapter 11 code\Chapter 11 code\obj\Debug\Chapter 11 code.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\dev\ChrisMcCall-Class-PRG-321\Tax Application\Chapter 11 code\Chapter 11 code\Chapter 11 code\bin\Debug\Chapter 11 code.exe
+\\Mac\Home\Documents\dev\ChrisMcCall-Class-PRG-321\Tax Application\Chapter 11 code\Chapter 11 code\Chapter 11 code\bin\Debug\Chapter 11 code.pdb
