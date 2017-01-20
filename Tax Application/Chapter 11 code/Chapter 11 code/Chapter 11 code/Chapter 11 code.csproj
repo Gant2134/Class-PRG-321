@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,8 +43,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="A.cs" />
+    <Compile Include="GuiPrinter.cs" />
+    <Compile Include="ConsolePrinter.cs" />
     <Compile Include="exampleInterface1.cs" />
+    <Compile Include="IDebug.cs" />
     <Compile Include="Instructor.cs" />
+    <Compile Include="IContactable.cs" />
+    <Compile Include="IPrinter.cs" />
     <Compile Include="person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

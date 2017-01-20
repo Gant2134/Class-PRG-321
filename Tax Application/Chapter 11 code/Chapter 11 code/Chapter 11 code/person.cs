@@ -45,11 +45,33 @@ namespace Chapter_11_code
             m_FirstName = firstname;
         }
         //this type of method (reading back the value of a memeber variable is called a getter)
-        public string GetFirstName()
+        public string FirstName
         {
-            return m_FirstName;
+            get
+            {
+                return m_FirstName;
+            }
+            set
+            {
+                m_FirstName = value;
+            }
         }
 
+        public int age
+        {
+
+            get
+            {
+                return m_age;
+            }
+
+            set
+            {
+                m_age = value;
+            }
+
+        }
+        
         public string LastName
         {
             get
@@ -62,6 +84,8 @@ namespace Chapter_11_code
                 m_LastName = value;
             }
         }
+
+
         // this is a constructor. because default no imput required also no return value
 
         protected person()

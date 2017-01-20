@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Chapter_11_code
 {
@@ -81,10 +82,20 @@ namespace Chapter_11_code
 
             A.Dictionary_tutorial();
             Student_Roster roster = new Student_Roster();
-            roster.Add(1, pA);
-            roster.Add(2, pB);
-            roster.Add(3, pC);
+            roster.Add(pA.ID, pA);
+            roster.Add(pB.ID, pB);
+            roster.Add(pC.ID, pC);
             student Chris =roster[2];
+
+            pA.m_IPrinter = new ConsolePrinter();
+            pB.m_IPrinter = new GuiPrinter();
+
+            pA.Debug();
+            pB.Debug();
+            
+            
+            
+            
             Console.ReadLine();
             
         }
